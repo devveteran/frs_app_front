@@ -1,0 +1,11 @@
+::-webkit-scrollbar {
+    display: none;
+}
+.camera-grid {
+    display: grid;
+    overflow-y: scroll;
+    width: 100%;
+    scroll-behavior: smooth;
+    height : 100%;
+}
+

@@ -1,0 +1,12 @@
+.camera-box {
+    border : 1px solid #232323;
+    min-height: 0;
+    background-image: url(/src/assets/images/nocam.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.camimg-cell {
+    width: 100%;
+    height: 100%;
+}
