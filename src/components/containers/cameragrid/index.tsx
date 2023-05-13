@@ -20,7 +20,7 @@ const CameraGrid = () => {
                     if (i < numCameras)
                         return <CameraBox key={i} camId={i}/>;
                     else
-                        return null;
+                        return (<div className="nocam_cell"></div>);
                 })
             }
         </div>

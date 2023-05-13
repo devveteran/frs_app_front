@@ -1,5 +1,6 @@
 import CameraGrid from '@containers/cameragrid';
 import './App.css';
+import FaceList from '@containers/facelist';
 
 function App() {
   return (
@@ -7,8 +8,8 @@ function App() {
         <div className="section-cameras">
           <CameraGrid/>
         </div>
-        <div className = "section-faces">
-          World!
+        <div className="section-faces">
+          <FaceList />
         </div>
       </div>
   );
